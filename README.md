@@ -132,6 +132,21 @@ docker-compose up -d --build
 npm run dev
 ```
 
+```
+
+> redis-analytics-bitmaps-api@1.0.0 dev
+> nodemon ./src/index.js
+
+[nodemon] 2.0.7
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node ./src/index.js`
+Sample data loaded...
+Server is listening on port 3000...
+```
+
+
 Go to `/client` folder (`cd ./client`) and then:
 
 ```
@@ -143,6 +158,19 @@ npm install
 
 # run development mode
 npm run serve
+```
+
+```
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://192.168.1.9:8080/
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
 ```
 
 ## Deployment
